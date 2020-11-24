@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <StackPanel>
+        <Rectangle Name="Rect1" Height="200" Width="100" Fill="{StaticResource ResourceKey=StandardSolidColorBrush}" />
+        <Rectangle Name="Rect2" Height="200" Width="100" Fill="{StaticResource ResourceKey=StandardLinearGradientBrush}" />
+        <Button Content="Save" Height="32" Width="120" Margin="4,0,4,0" />
+        <Button Content="Delete" Height="32" Width="120" Margin="4,0,4,0" Style="{StaticResource ResourceKey=NormalBtn}" />
+    </StackPanel>
+</Window>
